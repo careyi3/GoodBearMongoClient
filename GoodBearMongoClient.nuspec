@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GoodBearMongoClient</id>
+    <version>1.0.0</version>
+    <title>GoodBearMongoClient</title>
+    <authors>Ian Carey</authors>
+    <owners>Ian Carey</owners>
+    <licenseUrl>https://github.com/careyi3/GoodBearMongoClient/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/careyi3/GoodBearMongoClient/blob/master/README.md</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A MongoDB connection client for .Net</description>
+    <releaseNotes>This is the inital release of GoodBearMongoClient.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>GoodBearMongoClient GoodBear Mongo</tags>
+	<dependencies>
+      <group targetFramework=".NETStandard2.0">
+	    <dependency id="MongoDB.Bson" version="2.5.0"/>
+        <dependency id="MongoDB.Driver" version="2.5.0"/>
+        <dependency id="MongoDB.Driver.Core" version="2.5.0"/>
+      </group>
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="./bin/Release/netstandard2.0/GoodBearMongoClient.dll" target="lib/netstandard2.0/GoodBearMongoClient.dll" />
+  </files>
+</package>
