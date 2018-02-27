@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>GoodBearMongoClient</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>GoodBearMongoClient</title>
     <authors>Ian Carey</authors>
     <owners>Ian Carey</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/careyi3/GoodBearMongoClient/blob/master/README.md</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A MongoDB connection client for .Net</description>
-    <releaseNotes>This is the inital release of GoodBearMongoClient.</releaseNotes>
+    <releaseNotes>Refactored to force SSL in connection.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>GoodBearMongoClient GoodBear Mongo</tags>
 	<dependencies>
